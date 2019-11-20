@@ -29,12 +29,12 @@ body {
 	left: 2.5%;
 
 	color: white;
-	font-size: 10rem;
+	font-size: 5rem;
 }
 
 .loading {
 	color: white;
-	font-size: 5rem;
+	font-size: 3rem;
 	font-weight: 700;
 
 	text-align: center;
@@ -44,12 +44,12 @@ body {
 	display: none;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
 	.loading {
-		font-size: 3rem;
+		font-size: 5rem;
 	}
 
 	.prediction {
-		font-size: 5rem;
+		font-size: 10rem;
 	}
 }
