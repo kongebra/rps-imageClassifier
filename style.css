@@ -1,0 +1,45 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+
+	background: rgb(60, 0, 149);
+	background: linear-gradient(180deg, rgba(60, 0, 149, 1) 0%, rgba(249, 0, 197, 1) 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	padding-top: 25px;
+}
+
+#videoContainer {
+	position: relative;
+}
+
+.video {
+	max-width: 100%;
+	height: auto;
+	border: 1rem solid black;
+}
+
+.prediction {
+	position: absolute;
+	top: 0;
+	left: 2.5%;
+
+	color: white;
+	font-size: 10rem;
+}
+
+.loading {
+	color: white;
+	font-size: 5rem;
+	font-weight: 700;
+
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
