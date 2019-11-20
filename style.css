@@ -43,3 +43,13 @@ body {
 .hide {
 	display: none;
 }
+
+@media (max-width: 767px) {
+	.loading {
+		font-size: 3rem;
+	}
+
+	.prediction {
+		font-size: 5rem;
+	}
+}
